@@ -1,0 +1,45 @@
+.calendar-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 3em auto;
+  margin-bottom: 0;
+  border: 1px solid rgb(220, 220, 255);
+  border-radius: 5px;
+  background: #fff;
+}
+
+table {
+  clear: both;
+  width: 100%;
+  border: 1px solid rgb(220, 220, 255);
+  border-radius: 3px;
+  border-collapse: collapse;
+  color: #444;
+}
+
+td {
+  height: 48px;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid rgb(220, 220, 255);
+  border-top: 1px solid rgb(220, 220, 255);
+  width: calc(100% / 7);
+}
+
+td.not-current {
+  color: #c0c0c0;
+}
+
+td.today {
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.5em;
+  background-color: #f14e4e;
+}
+
+thead td {
+  border: none;
+  color: #f14e4e;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
