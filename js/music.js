@@ -12,9 +12,9 @@ musicIcon.addEventListener("click", function () {
   }
 });
 swal({
-  title: "Musiqa hoxlaysizmi?",
+  title: "Musiqa bilan ochilsinmi?",
   icon: "success",
-  buttons: ["Shart emas.", "Ha albatta!"],
+  buttons: ["Yo'q", "Ha"],
 }).then((willDelete) => {
   if (willDelete) {
     backgroundMusic.play();

@@ -1026,7 +1026,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 2em 0;
+  padding: 1em 0;
   clear: both;
 }
 #fh5co-started{
@@ -1864,12 +1864,9 @@ form label {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  width: 300px;
+  max-width: 500px;
+  width: 100%;
   margin: auto;
-  height: 300px;
-  border-radius: 50%;
-  overflow: hidden;
 }
 
 .couple-img img {
