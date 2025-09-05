@@ -9,7 +9,7 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   name.oninvalid = function (event) {
     event.target.setCustomValidity("Isminggizni kiriting.");
   };
-  const botToken = "7409105533:AAFk8K9aoOLd6v0nALD91huvpqa3n1Lo9xE";
+  const botToken = "8259542240:AAHMgu2v3Tgz5UKVfhWpEzW_11CrAVjb-Lk";
   const chatIds = ["7069036789"];
   if (name && phone) {
     const message = `${boy_name} ❤️ ${girl_name}\n\nIsmi: ${name}\nTelefon: ${phone}`;

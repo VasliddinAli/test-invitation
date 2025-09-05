@@ -12,9 +12,8 @@ musicIcon.addEventListener("click", function () {
   }
 });
 swal({
-  title: "Musiqa bilan ochilsinmi?",
-  icon: "success",
-  buttons: ["Yo'q", "Ha"],
+  title: "Chiroyli musiqa ostida davom etamizmi?",
+  buttons: ["Yo'q, shart emas (", "Ha, Albatta )"],
 }).then((willDelete) => {
   if (willDelete) {
     backgroundMusic.play();

@@ -35,12 +35,12 @@ boy_name_start_letter.innerHTML = "H";
 girl_name_start_letter.innerHTML = "H";
 address_invitation.innerHTML = "12-oktyabr, 2025 Farg'ona, Quva tumani";
 contact_address.innerHTML =
-  "Farg'ona viloyati, Quva tumani, Muhammadjon ota to'yxonasi.";
+  "Farg'ona viloyati, Quva tumani, Shodlik to'yxonasi.";
 contact_moljal.innerHTML = "Qorashox shaxarchasi, 7-maktab yonida";
-contact_phone.innerHTML = "+9989 4444 6050";
-contact_phone.setAttribute("href", "tel:+9989 4444 6050");
-naxor_date.innerHTML = "06:00";
+contact_phone.innerHTML = "+99850 6666 456";
+contact_phone.setAttribute("href", "tel:+99850 6666 456");
+naxor_date.innerHTML = "09:00";
 bazm_date.innerHTML = "14:00";
 wedding_start_date.innerHTML = "2025-yil 12-oktyabr";
 
-map_iframe.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.3052331558433!2d72.05217777583462!3d40.55725097141735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bc87b01458e155%3A0xb5707269aba420b2!2s24-umumiy%20o%CA%BBrta%20ta%CA%BClim%20maktabi!5e1!3m2!1sen!2s!4v1722152216566!5m2!1sen!2s" style="border:0; width: 100%; height: 450px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
+map_iframe.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d379.0249711813067!2d72.01639050445164!3d40.53717542778157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1757048800517!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
