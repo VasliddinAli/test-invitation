@@ -3,16 +3,18 @@
   max-width: 1000px;
   margin: 3em auto;
   margin-bottom: 0;
-  border: 1px solid rgb(220, 220, 255);
-  border-radius: 5px;
+  border: 2px solid rgba(211, 47, 47, 0.2);
+  border-radius: 20px;
   background: #fff;
+  box-shadow: 0 10px 30px rgba(211, 47, 47, 0.1);
+  overflow: hidden;
 }
 
 table {
   clear: both;
   width: 100%;
-  border: 1px solid rgb(220, 220, 255);
-  border-radius: 3px;
+  border: none;
+  border-radius: 0;
   border-collapse: collapse;
   color: #444;
 }
@@ -21,8 +23,8 @@ td {
   height: 48px;
   text-align: center;
   vertical-align: middle;
-  border-right: 1px solid rgb(220, 220, 255);
-  border-top: 1px solid rgb(220, 220, 255);
+  border-right: 1px solid rgba(211, 47, 47, 0.1);
+  border-top: 1px solid rgba(211, 47, 47, 0.1);
   width: calc(100% / 7);
 }
 
@@ -34,12 +36,16 @@ td.today {
   font-weight: 700;
   color: #fff;
   font-size: 1.5em;
-  background-color: #f14e4e;
+  background: linear-gradient(135deg, #d32f2f, #f14e4e);
+  border-radius: 50%;
+  margin: 5px;
 }
 
 thead td {
   border: none;
-  color: #f14e4e;
+  color: #d32f2f;
   text-transform: uppercase;
   font-size: 1.5em;
+  background: linear-gradient(135deg, #fff5f5, #ffe8e8);
+  font-weight: bold;
 }
