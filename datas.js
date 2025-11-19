@@ -33,7 +33,7 @@ boy_name.innerHTML = "Muslimbek";
 girl_name.innerHTML = "Azizaxon";
 boy_name_start_letter.innerHTML = "M";
 girl_name_start_letter.innerHTML = "A";
-address_invitation.innerHTML = "28-noyabr, 2025 Farg'ona, Quva tumani";
+address_invitation.innerHTML = "28-noyabr, 2025-yil. Shaxrisabz shaxri";
 contact_address.innerHTML =
   "Shaxrisabz shaxri, Shukrona to'yxonasi.";
 contact_moljal.innerHTML = "Shukrona to'yxonasi";
